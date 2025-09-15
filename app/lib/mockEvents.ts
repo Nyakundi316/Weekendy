@@ -1,0 +1,36 @@
+import { EventItem } from "./types";
+export const MOCK_EVENTS: EventItem[] = [
+{
+id: "evt_001",
+title: "Dunda Saturday – AfroHouse All Night",
+date: "Sat, Oct 4, 2025 · 8:00 PM",
+venue: "Alchemist, Westlands",
+city: "Nairobi",
+img: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=1600&auto=format&fit=crop",
+status: "upcoming",
+ticketRef: "DND-7X3A-001",
+priceKES: 1500,
+},
+{
+id: "evt_002",
+title: "Sunday Brunch & Beats",
+date: "Sun, Sep 7, 2025 · 1:00 PM",
+venue: "Two Grapes, Kilimani",
+city: "Nairobi",
+img: "https://images.unsplash.com/photo-1532634896-26909d0d4b6a?q=80&w=1600&auto=format&fit=crop",
+status: "past",
+ticketRef: "DND-Q92L-772",
+priceKES: 1200,
+},
+{
+id: "evt_003",
+title: "Coastal Sundowner – Mombasa Edition",
+date: "Sat, Sep 20, 2025 · 5:00 PM",
+venue: "Nyali Beach",
+city: "Mombasa",
+img: "https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=1600&auto=format&fit=crop",
+status: "upcoming",
+ticketRef: "DND-AB12-909",
+priceKES: 2000,
+},
+];
